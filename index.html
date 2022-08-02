@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <style> 
+        textarea {
+          width: 100%;
+          height: 250px;
+          padding: 12px 20px;
+          box-sizing: border-box;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          background-color: #f8f8f8;
+          font-size: 16px;
+          resize: none;
+        }
+        </style>
+    <title>Hasher</title>
+</head>
+<body class="w3-grey" background="assets/images/bg.png">
+    <div class="w3-top">
+        <div class="w3-bar w3-dark-grey">
+          <a href="#" class="w3-bar-item w3-button w3-hover-grey" style="font-size: larger;">#<font class="w3-text-orange">Has</font>her</a>
+        </div>
+    </div>
+    <br><br><br>
+<div class="w3-container w3-center"> 
+    <h1>#Hasher</h1>
+    <div class="w3-row w3-center ">
+        
+        <input class="w3-input w3-border w3-round-large w3-moblie" type="text" placeholder="Type here " autofocus id="flat_input">
+        <div class=" w3-padding">
+            <button class="w3-button w3-round-xxlarge w3-moblie w3-blue w3-ripple" id="flat_hash" onclick="e()"> &nbsp; hash# &nbsp;</button>
+            <button class="w3-button w3-round-xxlarge w3-moblie w3-orange w3-ripple" id="flat_decode" onclick="e2()"> &nbsp; Decode. &nbsp;</button>
+        </div>
+        
+    <div class="w3-container w3-center">
+            
+                <h1>Hash Multiline Inputs </h1>
+            
+            <br>
+        <div class="w3-row w3-moblie">
+                <textarea placeholder="Enter here.." autofocus class="w3-round-large" id="multi_input"></textarea>
+           
+                <div class="w3-row">
+                    
+                    <button class="w3-button w3-round-xxlarge w3-moblie w3-blue w3-ripple" id="multi_hash" onclick="e3()"> &nbsp; hash# &nbsp;</button>
+                    <button class="w3-button w3-round-xxlarge w3-moblie w3-orange w3-ripple" id="multi_decode" onclick="e4()"> &nbsp; Decode. &nbsp;</button>
+                </div>
+            
+        </div>
+            
+    </div>
+      
+</div>
+<br>
+<br>
+
+<div class="w3-container w3-dark-grey">
+      <h1 class="w3-left-align w3-text-white" style="font-weight: bold;">About #Hasher</h1>
+      <p class="w3-text-white">
+        Hasher is an encrypting algorithm and this website allows users to encrypt their text data using it.
+        Since the hashed data has a format which makes it difficult to  predict the encryption algorithm used, users can store 
+        their data without the fear of data theft.
+        Users can decode their data using the same algorithm.
+      </p>
+     <h2 class="w3-left-align w3-text-white" style="font-weight: bold;">Future Update</h2>
+        <p>
+            By Introducing <u>"key"</u> for each user, when the same data is encrypted using #hasher, it will give different output.
+            <br>
+            ie, Only the user could decrypt the encrypted data and the key should be stored by the user.
+
+        </p>
+        <p>
+            &nbsp;
+        </p>
+
+    <footer>
+         <p class="w3-text-white" style="font-weight: bolder;">
+            Copyright &copy; 2022 Ashiq Firoz
+         </p>
+    </footer>
+</div>
+      
+<script src="script/main.js">
+    
+</script>
+
+</body>
+</html>
